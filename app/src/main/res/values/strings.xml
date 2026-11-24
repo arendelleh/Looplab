@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LoopLab</string>
+    <string name="subtitle">Explore the Android Activity lifecycle</string>
+    <string name="instructions">Press Home, then return to LoopLab to observe callbacks. Rotate your phone with auto-rotate enabled to observe Activity recreation.</string>
+    <string name="timeline_heading">Callback timeline</string>
+    <string name="latest_event">Latest callback: %1$s</string>
+    <string name="clear_history">Clear history</string>
+    <string name="empty_history">History cleared. Leave the app and return to record more callbacks.</string>
+    <string name="history_note">Shows up to 40 events, oldest first. History lasts while the app process is alive. Android may end a process without calling onDestroy.</string>
+    <string name="event_create">The Activity is being created and its interface initialized.</string>
+    <string name="event_start">The Activity is becoming visible.</string>
+    <string name="event_resume">The Activity is in the foreground and ready for interaction.</string>
+    <string name="event_pause">The Activity is losing foreground interaction.</string>
+    <string name="event_stop">The Activity is no longer visible.</string>
+    <string name="event_restart">The stopped Activity is preparing to start again.</string>
+    <string name="event_destroy">This Activity instance is being destroyed.</string>
+</resources>
